@@ -1,5 +1,5 @@
 //
-//  ALAYOUNIRopeDemoScene.m
+//  ALRopeDemoScene.m
 //  RopeDemo
 //
 //  Created by alayouni on 1/18/15.

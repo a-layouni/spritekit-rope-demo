@@ -1,5 +1,5 @@
 //
-//  ALAYOUNIAppDelegate.m
+//  ALAppDelegate.m
 //  RopeDemo
 //
 //  Created by alayouni on 1/18/15.
