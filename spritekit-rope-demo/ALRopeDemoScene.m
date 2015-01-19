@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 com.alayouni. All rights reserved.
 //
 
-#import "ALAYOUNIRopeDemoScene.h"
-#import "ALAYOUNIRope.h"
+#import "ALRopeDemoScene.h"
+#import "ALRope.h"
 
-@implementation ALAYOUNIRopeDemoScene
+@implementation ALRopeDemoScene
 {
     __weak SKSpriteNode *_branch;
     
@@ -17,7 +17,7 @@
     
     BOOL _branchIsMoving;
     
-    ALAYOUNIRope *_rope;
+    ALRope *_rope;
 }
 
 -(id)initWithSize:(CGSize)size {
@@ -39,7 +39,7 @@
     branch.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:CGSizeMake(2, 10)];
     branch.physicsBody.dynamic = NO;
     [self addChild:branch];
-    _rope = [[ALAYOUNIRope alloc] initWithRingTexture:[SKTexture textureWithImageNamed:@"rope_ring"]];
+    _rope = [[ALRope alloc] initWithRingTexture:[SKTexture textureWithImageNamed:@"rope_ring"]];
     
     //configure rope params if needed
     //    _rope.ringCount = ...;//default is 30

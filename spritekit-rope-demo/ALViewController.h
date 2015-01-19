@@ -1,5 +1,5 @@
 //
-//  ALAYOUNIRopeDemoScene.h
+//  ALAYOUNIViewController.h
 //  RopeDemo
 //
 //  Created by alayouni on 1/18/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SpriteKit/SpriteKit.h>
 
-@interface ALAYOUNIRopeDemoScene : SKScene
+@interface ALViewController : UIViewController
 
 @end

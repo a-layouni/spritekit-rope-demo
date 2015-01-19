@@ -8,7 +8,7 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface ALAYOUNIRope : NSObject
+@interface ALRope : NSObject
 
 @property(nonatomic, readonly) NSArray *ropeRings;
 

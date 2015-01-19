@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 com.alayouni. All rights reserved.
 //
 
-#import "ALAYOUNIAppDelegate.h"
+#import "ALAppDelegate.h"
 
-@implementation ALAYOUNIAppDelegate
+@implementation ALAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

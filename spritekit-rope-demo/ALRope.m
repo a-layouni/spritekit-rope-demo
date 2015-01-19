@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 com.alayouni. All rights reserved.
 //
 
-#import "ALAYOUNIRope.h"
+#import "ALRope.h"
 
-@implementation ALAYOUNIRope
+@implementation ALRope
 
 {
     SKTexture *_ringTexture;

@@ -6,16 +6,16 @@
 //  Copyright (c) 2015 com.alayouni. All rights reserved.
 //
 
-#import "ALAYOUNIViewController.h"
-#import "ALAYOUNIRopeDemoScene.h"
+#import "ALViewController.h"
+#import "ALRopeDemoScene.h"
 
-@interface ALAYOUNIViewController ()
+@interface ALViewController ()
 
 @end
 
-@implementation ALAYOUNIViewController
+@implementation ALViewController
 {
-    ALAYOUNIRopeDemoScene *_scene;
+    ALRopeDemoScene *_scene;
 }
 
 - (void)viewDidLoad
@@ -30,7 +30,7 @@
     //    skView.showsPhysics = YES;
     
     // Create and configure the scene.
-    _scene = [ALAYOUNIRopeDemoScene sceneWithSize:skView.bounds.size];
+    _scene = [ALRopeDemoScene sceneWithSize:skView.bounds.size];
     _scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

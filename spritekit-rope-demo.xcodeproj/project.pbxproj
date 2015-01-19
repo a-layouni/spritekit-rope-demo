@@ -12,10 +12,10 @@
 		A6D4323B1A6C523C00A2A2A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D4323A1A6C523C00A2A2A6 /* Images.xcassets */; };
 		A6D4323E1A6C523C00A2A2A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D4323C1A6C523C00A2A2A6 /* LaunchScreen.xib */; };
 		A6D4324A1A6C523C00A2A2A6 /* spritekit_rope_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432491A6C523C00A2A2A6 /* spritekit_rope_demoTests.m */; };
-		A6D4325D1A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432541A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.m */; };
-		A6D4325E1A6C52B200A2A2A6 /* ALAYOUNIRope.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432561A6C52B200A2A2A6 /* ALAYOUNIRope.m */; };
-		A6D4325F1A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432581A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.m */; };
-		A6D432601A6C52B200A2A2A6 /* ALAYOUNIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4325A1A6C52B200A2A2A6 /* ALAYOUNIViewController.m */; };
+		A6D4325D1A6C52B200A2A2A6 /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432541A6C52B200A2A2A6 /* ALAppDelegate.m */; };
+		A6D4325E1A6C52B200A2A2A6 /* ALRope.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432561A6C52B200A2A2A6 /* ALRope.m */; };
+		A6D4325F1A6C52B200A2A2A6 /* ALRopeDemoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D432581A6C52B200A2A2A6 /* ALRopeDemoScene.m */; };
+		A6D432601A6C52B200A2A2A6 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4325A1A6C52B200A2A2A6 /* ALViewController.m */; };
 		A6D432611A6C52B200A2A2A6 /* Branch.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D4325B1A6C52B200A2A2A6 /* Branch.png */; };
 		A6D432621A6C52B200A2A2A6 /* rope_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D4325C1A6C52B200A2A2A6 /* rope_ring.png */; };
 /* End PBXBuildFile section */
@@ -40,14 +40,14 @@
 		A6D432431A6C523C00A2A2A6 /* spritekit-rope-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spritekit-rope-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D432481A6C523C00A2A2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6D432491A6C523C00A2A2A6 /* spritekit_rope_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spritekit_rope_demoTests.m; sourceTree = "<group>"; };
-		A6D432531A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAYOUNIAppDelegate.h; sourceTree = "<group>"; };
-		A6D432541A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAYOUNIAppDelegate.m; sourceTree = "<group>"; };
-		A6D432551A6C52B200A2A2A6 /* ALAYOUNIRope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAYOUNIRope.h; sourceTree = "<group>"; };
-		A6D432561A6C52B200A2A2A6 /* ALAYOUNIRope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAYOUNIRope.m; sourceTree = "<group>"; };
-		A6D432571A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAYOUNIRopeDemoScene.h; sourceTree = "<group>"; };
-		A6D432581A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAYOUNIRopeDemoScene.m; sourceTree = "<group>"; };
-		A6D432591A6C52B200A2A2A6 /* ALAYOUNIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAYOUNIViewController.h; sourceTree = "<group>"; };
-		A6D4325A1A6C52B200A2A2A6 /* ALAYOUNIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAYOUNIViewController.m; sourceTree = "<group>"; };
+		A6D432531A6C52B200A2A2A6 /* ALAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		A6D432541A6C52B200A2A2A6 /* ALAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
+		A6D432551A6C52B200A2A2A6 /* ALRope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRope.h; sourceTree = "<group>"; };
+		A6D432561A6C52B200A2A2A6 /* ALRope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRope.m; sourceTree = "<group>"; };
+		A6D432571A6C52B200A2A2A6 /* ALRopeDemoScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALRopeDemoScene.h; sourceTree = "<group>"; };
+		A6D432581A6C52B200A2A2A6 /* ALRopeDemoScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRopeDemoScene.m; sourceTree = "<group>"; };
+		A6D432591A6C52B200A2A2A6 /* ALViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALViewController.h; sourceTree = "<group>"; };
+		A6D4325A1A6C52B200A2A2A6 /* ALViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALViewController.m; sourceTree = "<group>"; };
 		A6D4325B1A6C52B200A2A2A6 /* Branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Branch.png; sourceTree = "<group>"; };
 		A6D4325C1A6C52B200A2A2A6 /* rope_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rope_ring.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,14 +91,14 @@
 		A6D432271A6C523C00A2A2A6 /* spritekit-rope-demo */ = {
 			isa = PBXGroup;
 			children = (
-				A6D432531A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.h */,
-				A6D432541A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.m */,
-				A6D432591A6C52B200A2A2A6 /* ALAYOUNIViewController.h */,
-				A6D4325A1A6C52B200A2A2A6 /* ALAYOUNIViewController.m */,
-				A6D432571A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.h */,
-				A6D432581A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.m */,
-				A6D432551A6C52B200A2A2A6 /* ALAYOUNIRope.h */,
-				A6D432561A6C52B200A2A2A6 /* ALAYOUNIRope.m */,
+				A6D432531A6C52B200A2A2A6 /* ALAppDelegate.h */,
+				A6D432541A6C52B200A2A2A6 /* ALAppDelegate.m */,
+				A6D432591A6C52B200A2A2A6 /* ALViewController.h */,
+				A6D4325A1A6C52B200A2A2A6 /* ALViewController.m */,
+				A6D432571A6C52B200A2A2A6 /* ALRopeDemoScene.h */,
+				A6D432581A6C52B200A2A2A6 /* ALRopeDemoScene.m */,
+				A6D432551A6C52B200A2A2A6 /* ALRope.h */,
+				A6D432561A6C52B200A2A2A6 /* ALRope.m */,
 				A6D4325B1A6C52B200A2A2A6 /* Branch.png */,
 				A6D4325C1A6C52B200A2A2A6 /* rope_ring.png */,
 				A6D432371A6C523C00A2A2A6 /* Main.storyboard */,
@@ -237,10 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D4325E1A6C52B200A2A2A6 /* ALAYOUNIRope.m in Sources */,
-				A6D4325F1A6C52B200A2A2A6 /* ALAYOUNIRopeDemoScene.m in Sources */,
-				A6D4325D1A6C52B200A2A2A6 /* ALAYOUNIAppDelegate.m in Sources */,
-				A6D432601A6C52B200A2A2A6 /* ALAYOUNIViewController.m in Sources */,
+				A6D4325E1A6C52B200A2A2A6 /* ALRope.m in Sources */,
+				A6D4325F1A6C52B200A2A2A6 /* ALRopeDemoScene.m in Sources */,
+				A6D4325D1A6C52B200A2A2A6 /* ALAppDelegate.m in Sources */,
+				A6D432601A6C52B200A2A2A6 /* ALViewController.m in Sources */,
 				A6D4322B1A6C523C00A2A2A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +434,7 @@
 				A6D4324F1A6C523C00A2A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6D432501A6C523C00A2A2A6 /* Build configuration list for PBXNativeTarget "spritekit-rope-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +443,7 @@
 				A6D432521A6C523C00A2A2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
